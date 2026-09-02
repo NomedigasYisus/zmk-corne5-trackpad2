@@ -62,7 +62,7 @@
         dr-gpios = <&gpio1 3 (GPIO_ACTIVE_HIGH)>;
         sensitivity = "2x";
         sleep;
-        x-invert;
+        //x-invert;
         no-secondary-tap;
         //y-invert;
         //rotate-90;
