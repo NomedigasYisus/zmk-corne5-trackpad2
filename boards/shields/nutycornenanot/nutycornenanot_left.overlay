@@ -60,5 +60,6 @@
 
 &trackpad {
     status = "okay";
+	y-invert;
 };
 
