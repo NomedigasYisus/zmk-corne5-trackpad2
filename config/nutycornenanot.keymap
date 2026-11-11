@@ -40,11 +40,18 @@
             bindings = <&kp>, <&kp>;
         };
 
-        swt: switch {
+        win: os_win {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
-            display-name = "SWITCH";
+            display-name = "WIN";
             toggle-mode = "on";
+        };
+
+        mac: os_mac {
+            compatible = "zmk,behavior-toggle-layer";
+            #binding-cells = <1>;
+            display-name = "MAC";
+            toggle-mode = "off";
         };
     };
 
@@ -92,7 +99,7 @@
   &kp INSERT    &kp PG_UP     &kp PG_DN       &bt BT_CLR        &bt BT_CLR_ALL  &kp F6         &kp F7     &kp F8   &kp F9   &kp F10
   &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_WIN  &kp TAB       &kp TAB        &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp F11  &kp F12
   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4    &kp F1         &kp F2     &kp F3   &kp F4   &kp F5
-  &none         &none         &kp TAB         &kp SPACE         &to 0           &kp BACKSPACE  &kp ENTER  &kp ESC  &none    &swt 1
+  &none         &none         &kp TAB         &kp SPACE         &to 0           &kp BACKSPACE  &kp ENTER  &kp ESC  &mac 1   &win 1
             >;
         };
 
