@@ -70,7 +70,7 @@
         base {
             bindings = <
   &kp Q           &kp W           &kp E             &kp R        &kp T         &kp Y          &kp U        &kp I              &kp O            &kp P
-  &hm LCTRL A     &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LEFT_WIN F  &hm TAB G   &hm TAB H      &hm RIGHT_GUI J  &hm RIGHT_SHIFT K  &hm RIGHT_ALT L  &hm RCTRL SEMI
+  &hm LEFT_WIN A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LCTRL F     &hm TAB G   &hm TAB H      &hm RCTRL J      &hm RIGHT_SHIFT K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMI
   &kp Z           &kp X           &kp C             &kp V        &kp B         &kp N          &kp M        &kp COMMA          &kp DOT          &kp FSLH
   &mkp LCLK       &mkp RCLK       &lt 3 TAB         &lt 4 SPACE  &lt 2 ESCAPE  &kp BACKSPACE  &kp ENTER    &lt 9 ESCAPE       &mkp RCLK        &mkp LCLK
             >;
@@ -79,7 +79,7 @@
         win {
             bindings = <
   &kp Q           &kp W           &kp E             &kp R        &kp T         &kp Y          &kp U        &kp I              &kp O            &kp P
-  &hm LEFT_WIN A  &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LCTRL F  &hm TAB G     &hm TAB H      &hm RCTRL J  &hm RIGHT_SHIFT K  &hm RIGHT_ALT L  &hm RIGHT_GUI SEMI
+  &hm LCTRL A     &hm LEFT_ALT S  &hm LEFT_SHIFT D  &hm LEFT_WIN F  &hm TAB G   &hm TAB H      &hm RIGHT_GUI J  &hm RIGHT_SHIFT K  &hm RIGHT_ALT L  &hm RCTRL SEMI
   &kp Z           &kp X           &kp C             &kp V        &kp B         &kp N          &kp M        &kp COMMA          &kp DOT          &kp FSLH
   &mkp LCLK       &mkp RCLK       &lt 3 TAB         &lt 4 SPACE  &lt 2 ESCAPE  &kp BACKSPACE  &kp ENTER    &lt 9 ESCAPE       &mkp RCLK        &mkp LCLK
             >;
@@ -97,7 +97,7 @@
         layer_2 {
             bindings = <
   &kp INSERT    &kp PG_UP     &kp PG_DN       &bt BT_CLR        &bt BT_CLR_ALL  &kp F6         &kp F7     &kp F8   &kp F9   &kp F10
-  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_WIN  &kp TAB       &kp TAB        &kp RIGHT_GUI  &kp RIGHT_SHIFT  &kp F11  &kp F12
+  &kp LEFT_WIN      &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL &kp TAB    &kp TAB        &kp RCTRL      &kp RIGHT_SHIFT  &kp F11  &kp F12
   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4    &kp F1         &kp F2     &kp F3   &kp F4   &kp F5
   &none         &none         &kp TAB         &kp SPACE         &to 0           &kp BACKSPACE  &kp ENTER  &kp ESC  &mac 1   &win 1
             >;
