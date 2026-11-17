@@ -93,7 +93,7 @@
         function {
             bindings = <
   &kp F1     &kp F2    &kp F3         &kp F4         &kp F5        &kp F6        &kp F7        &kp F8         &kp F9         &kp F10
-  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_WIN   &kp TAB       &kp TAB       &kp RIGHT_GUI &kp RIGHT_SHIFT &kp RIGHT_ALT  &kp RIGHT_GUI
+  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_WIN   &kp TAB   &kp TAB       &kp RIGHT_GUI &kp RIGHT_SHIFT &kp RIGHT_ALT  &kp RCTRL
   &kp F8     &kp F9    &kp F10        &kp F11        &kp F12       &none         &none         &none          &none          &none
   &trans     &trans    &trans         &trans         &trans        &trans        &trans        &trans         &trans         &trans
             >;
@@ -102,7 +102,7 @@
         row {
             bindings = <
   &none      &none      &none         &none          &none         &kp INS       &kp PG_UP     &kp UP         &kp PG_DN      &kp LS(LG(S))
-  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_WIN   &kp TAB       &kp BSPC      &kp LEFT      &kp DOWN       &kp RIGHT      &kp LS(LG(N4))
+  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_WIN   &kp TAB   &kp BSPC      &kp LEFT      &kp DOWN       &kp RIGHT      &kp LS(LG(N4))
   &none      &none      &none         &none          &none         &kp DEL       &kp HOME      &kp LSHFT      &kp END        &kp LSHFT
   &trans     &trans     &trans        &trans         &trans        &trans        &trans        &trans         &trans         &trans
             >;
